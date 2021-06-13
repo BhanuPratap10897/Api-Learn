@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 const Signin =() =>{
+  
+
     return(
         <div className="mycard">
             <div className="card auth-card input-field">
@@ -9,10 +11,12 @@ const Signin =() =>{
                 <input
                     type="text"
                     placeholder="E-mail"
+                   
                 />
                 <input
                     type="text"
                     placeholder="Password"
+                   
                 />
                  <button className="btn waves-effect waves-light #b39ddb deep-purple lighten-3">
                     Login
